@@ -49,6 +49,5 @@
 		<developerConnection>
 			scm:git:git@github.com:MilenaDjukanovic/sm-pet-clinic.git
 		</developerConnection>
-	  <tag>smpetclinic-0.0.1</tag>
   </scm>
 </project>
