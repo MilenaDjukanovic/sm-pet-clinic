@@ -30,9 +30,9 @@ public class DataLoader implements CommandLineRunner{
         this.ownerService.save(owner1);
 
         Owner owner2 = new Owner();
-        owner1.setId(2L);
-        owner1.setFirstName("Jake");
-        owner1.setLastName("Jannison");
+        owner2.setId(2L);
+        owner2.setFirstName("Jake");
+        owner2.setLastName("Jannison");
 
         this.ownerService.save(owner2);
 
