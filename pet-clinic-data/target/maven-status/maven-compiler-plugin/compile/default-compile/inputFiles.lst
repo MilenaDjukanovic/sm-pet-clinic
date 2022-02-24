@@ -1,5 +1,14 @@
-/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/model/Person.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/services/map/PetServiceMap.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/services/PetService.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/services/map/AbstractMapService.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/services/VetService.java
 /Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/model/Pet.java
 /Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/model/Vet.java
 /Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/model/PetType.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/services/map/OwnerServiceMap.java
 /Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/model/Owner.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/services/OwnerService.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/model/Person.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/services/map/VetServiceMap.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/model/BaseEntity.java
+/Users/milena_djukanovic/Projects/Spring projects/sm-pet-clinic/pet-clinic-data/src/main/java/com/example/smpetclinic/services/CrudService.java
