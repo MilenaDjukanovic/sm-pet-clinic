@@ -1,6 +1,6 @@
 package com.example.smpetclinic.model;
 
-public class Specialty extends BaseEntity{
+public class Speciality extends BaseEntity{
 
     private String description;
 
