@@ -1,2 +1,14 @@
-package com.example.smpetclinic.model;public class Specialty {
+package com.example.smpetclinic.model;
+
+public class Specialty extends BaseEntity{
+
+    private String description;
+
+    public String getDescription(){
+        return description;
+    }
+
+    public void setDescription(String description){
+        this.description = description;
+    }
 }
