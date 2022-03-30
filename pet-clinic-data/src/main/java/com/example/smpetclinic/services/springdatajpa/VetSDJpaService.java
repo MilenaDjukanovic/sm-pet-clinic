@@ -4,13 +4,14 @@ import com.example.smpetclinic.model.Vet;
 import com.example.smpetclinic.repositories.VetRepository;
 import com.example.smpetclinic.services.VetService;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
 @Service
-@Qualifier("vetsdjpaservice")
+@Profile("vetsdjpaservice")
 public class VetSDJpaService implements VetService{
 
     private final VetRepository vetRepository;

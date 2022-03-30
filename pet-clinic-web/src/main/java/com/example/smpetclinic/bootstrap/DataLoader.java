@@ -5,10 +5,12 @@ import com.example.smpetclinic.model.Pet;
 import com.example.smpetclinic.model.PetType;
 import com.example.smpetclinic.model.Speciality;
 import com.example.smpetclinic.model.Vet;
+import com.example.smpetclinic.model.Visit;
 import com.example.smpetclinic.services.OwnerService;
 import com.example.smpetclinic.services.PetTypeService;
 import com.example.smpetclinic.services.SpecialtyService;
 import com.example.smpetclinic.services.VetService;
+import com.example.smpetclinic.services.VisitService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -21,13 +23,15 @@ public class DataLoader implements CommandLineRunner{
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialtyService specialtiesService;
+    private final VisitService visitService;
 
     public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService,
-                      SpecialtyService specialtiesService){
+                      SpecialtyService specialtiesService, VisitService visitService){
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialtiesService = specialtiesService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -80,6 +84,12 @@ public class DataLoader implements CommandLineRunner{
         owner2.getPets().add(jakePet);
         this.ownerService.save(owner2);
 
+        Visit catVisit = new Visit();
+        catVisit.setPet(jakePet);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Sneezy kitty");
+
+        visitService.save(catVisit);
         System.out.println("Loaded owners....");
 
         /*
